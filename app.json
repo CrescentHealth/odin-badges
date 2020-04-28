@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "steady",
+    "slug": "steady",
+    "privacy": "unlisted",
+    "platforms": ["ios", "android", "web"],
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "androidStatusBarColor": "#FFFFFF",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#2E2E2E",
+      "translucent": false
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "sunlight.vitamin.d",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIUserInterfaceStyle": "Light"
+      }
+    },
+    "android": {
+      "package": "sunlight.vitamin.d",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#1c2126",
+        "foregroundImage": "./assets/icon.png"
+      }
+    },
+    "notification": {
+      "icon": "./assets/notificationIcon.png",
+      "color": "#1c2126",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    }
+  }
+}
